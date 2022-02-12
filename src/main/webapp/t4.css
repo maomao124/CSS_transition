@@ -1,0 +1,26 @@
+/*
+  Project name(项目名称)：CSS_transition 
+  File name(文件名): t4
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/2/12 
+  Time(创建时间)： 13:29
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 10px 0px 0px 10px;
+    transition: width .25s linear 1.9s, background 1s 2s, transform 2s;
+}
+
+div:hover {
+    width: 200px;
+    background-color: blue;
+    transform: rotate(180deg);
+}
+    

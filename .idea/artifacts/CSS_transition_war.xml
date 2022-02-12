@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CSS_transition:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>CSS_transition</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="CSS_transition-1.0.war">
+      <element id="artifact" artifact-name="CSS_transition:war exploded" />
+    </root>
+  </artifact>
+</component>
