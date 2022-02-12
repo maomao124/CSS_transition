@@ -1,0 +1,27 @@
+/*
+  Project name(项目名称)：CSS_transition 
+  File name(文件名): t3
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/2/12 
+  Time(创建时间)： 13:28
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 10px 0px 0px 10px;
+    transition-property: width, background;
+    transition-duration: .25s, 1s;
+    transition-delay: 3s;
+}
+
+div:hover {
+    width: 200px;
+    background-color: blue;
+}
